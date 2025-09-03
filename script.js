@@ -5,6 +5,9 @@ submitBtn.onclick = function (event) {
 
 function validateForm() {
     const dob = document.getElementById('dob').value.trim();
+
+
+
     const address = document.getElementById('address').value.trim();
     const phno = document.getElementById('phno').value.trim();
     const email = document.getElementById('email').value.trim();
