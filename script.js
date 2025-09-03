@@ -10,7 +10,6 @@ function validateForm() {
 
     const address = document.getElementById('address').value.trim();
     const phno = document.getElementById('phno').value.trim();
-    const email = document.getElementById('email').value.trim();
 
     const dobError = document.getElementById('doberror');
     const addressError = document.getElementById('addresserror');
